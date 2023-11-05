@@ -8,6 +8,11 @@
 @license      AGPL-3.0-only
 @preprocessor default
 
+@var select opaqueMascot "Opaque Mascot" {
+    "Yes": "0.2",
+    "No": "1"
+}
+
 ==/UserStyle== */
 
 @-moz-document url-prefix("masto.pt"), domain("masto.pt") {
@@ -498,5 +503,16 @@ section.emoji-mart {
 .zoomable-image img {
     border: 1px solid var(--dropdown-border-color);
     box-shadow: 0px 0px 70px -30px rgba(0, 0, 0, .5), 0px 0px 40px -20px rgba(0, 0, 0, .2);
+}
+
+if opaqueMascot == "yes" {
+    .drawer__inner__mastodon > img {
+        opacity: 0.3;
+    }
+}
+if not opaqueMascot {
+    .drawer__inner__mastodon > img {
+        opacity: 1;
+    }
 }
 }
