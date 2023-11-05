@@ -9,7 +9,7 @@
 @preprocessor stylus
 
 @var checkbox opaqueMascot "Opaque Mascot" 0
-@var text columnWidth  "Column Width (in pixels)" 600px
+@var text columnWidth  "Column Width (in pixels)" 500px
 
 ==/UserStyle== */
 
