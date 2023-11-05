@@ -13,7 +13,7 @@ Don't forget to change the instance domain after installing it.
 
 ## Install
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)]([MY.USER.CSS](https://github.com/brunomiguel/cleaner-mastodon/raw/main/mastodon.user.css)https://github.com/brunomiguel/cleaner-mastodon/raw/main/mastodon.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://codeberg.org/brunomiguel/cleaner-mastodon/raw/branch/main/mastodon.user.css)
 
 ## Screenshot
 ![Screenshot](https://raw.githubusercontent.com/brunomiguel/cleaner-mastodon/main/screenshot.png)
