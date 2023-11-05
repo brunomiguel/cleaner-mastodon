@@ -2,14 +2,14 @@
 @name         Cleaner Mastodon
 @description  Make Mastodon look cleaner
 @namespace    https://masto.pt/brunomiguel
-@version      0.0.3
+@version      0.0.4
 @author       brunomiguel (https://masto.pt/brunomiguel)
 @supportURL   https://github.com/brunomiguel/cleaner-mastodon/issues
 @license      AGPL-3.0-only
 @preprocessor default
 
 @var select opaqueMascot "Opaque Mascot" {
-    "Yes": "0.2",
+    "Yes": "0.3",
     "No": "1"
 }
 
@@ -507,12 +507,12 @@ section.emoji-mart {
 
 if opaqueMascot == "yes" {
     .drawer__inner__mastodon > img {
-        opacity: 0.3;
+        opacity: Yes;
     }
 }
 if not opaqueMascot {
     .drawer__inner__mastodon > img {
-        opacity: 1;
+        opacity: No;
     }
 }
 }
