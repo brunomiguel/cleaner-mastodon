@@ -15,5 +15,5 @@ Don't forget to change the instance domain after installing it.
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)]([MY.USER.CSS](https://github.com/brunomiguel/cleaner-mastodon/raw/main/mastodon.user.css)https://github.com/brunomiguel/cleaner-mastodon/raw/main/mastodon.user.css)
 
-## SCreenshot
+## Screenshot
 ![Screenshot](https://raw.githubusercontent.com/brunomiguel/cleaner-mastodon/main/screenshot.png)
