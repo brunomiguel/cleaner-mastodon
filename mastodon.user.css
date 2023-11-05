@@ -2,13 +2,14 @@
 @name         Cleaner Mastodon teste
 @description  Make Mastodon look cleaner
 @namespace    https://masto.pt/brunomiguel
-@version      0.0.7
+@version      0.0.8
 @author       brunomiguel (https://masto.pt/brunomiguel)
 @supportURL   https://github.com/brunomiguel/cleaner-mastodon/issues
 @license      AGPL-3.0-only
 @preprocessor stylus
 
-@var    checkbox    opaqueMascot   "Opaque Mascot"  0
+@var checkbox opaqueMascot "Opaque Mascot" 0
+@var text columnWidth  "Column Width (in pixels)" 600px
 
 ==/UserStyle== */
 
@@ -98,7 +99,7 @@ bold {
     max-width: 650px !important;
 }*/
 .column {
-    width: 500px !important;
+    width: columnWidth !important;
 }
 
 .drawer {
