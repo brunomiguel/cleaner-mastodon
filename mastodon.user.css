@@ -1,17 +1,14 @@
 /* ==UserStyle==
-@name         Cleaner Mastodon
+@name         Cleaner Mastodon teste
 @description  Make Mastodon look cleaner
 @namespace    https://masto.pt/brunomiguel
-@version      0.0.6
+@version      0.0.7
 @author       brunomiguel (https://masto.pt/brunomiguel)
 @supportURL   https://github.com/brunomiguel/cleaner-mastodon/issues
 @license      AGPL-3.0-only
-@preprocessor default
+@preprocessor stylus
 
-@var select opaqueMascot "Opaque Mascot" {
-    "Yes": "yes",
-    "No": "no"
-}
+@var    checkbox    opaqueMascot   "Opaque Mascot"  0
 
 ==/UserStyle== */
 
@@ -24,6 +21,12 @@
     --modal-border-color: #3d414d;
     --modal-background-color-opaque: #1f232bfa;
     --yellow: #c7ea8a;
+}
+
+if opaqueMascot {
+    .drawer__inner__mastodon > img {
+        opacity: 0.3 !important;
+    }
 }
 
 html {
@@ -505,9 +508,4 @@ section.emoji-mart {
     box-shadow: 0px 0px 70px -30px rgba(0, 0, 0, .5), 0px 0px 40px -20px rgba(0, 0, 0, .2);
 }
 
-if opaqueMascot == "yes" {
-    .drawer__inner__mastodon > img {
-        opacity: 0.3 !important;
-    }
-}
 }
