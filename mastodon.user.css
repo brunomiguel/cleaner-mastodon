@@ -6,15 +6,8 @@
 @author       brunomiguel (https://masto.pt/brunomiguel)
 @supportURL   https://github.com/brunomiguel/cleaner-mastodon/issues
 @license      AGPL-3.0-only
-@preprocessor stylus
+@preprocessor default
 
-@var          color    fontColor "Font color"    #123456
-@var          select   navPos    "Navbar position" {
-    "Top": "top",
-    "Bottom": "bottom"
-}
-@var          checkbox fixNav    "Fixed navbar"  1
-@var          text     navHeight "Navbar height" 60px
 ==/UserStyle== */
 
 @-moz-document url-prefix("masto.pt"), domain("masto.pt") {
