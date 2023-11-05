@@ -1,3 +1,22 @@
+/* ==UserStyle==
+@name         Cleaner Mastodon
+@description  Make Mastodon look cleaner
+@namespace    https://masto.pt/brunomiguel
+@version      0.0.1
+@author       brunomiguel (https://masto.pt/brunomiguel)
+@supportURL   https://github.com/brunomiguel/cleaner-mastodon/issues
+@license      AGPL-3.0-only
+@preprocessor stylus
+
+@var          color    fontColor "Font color"    #123456
+@var          select   navPos    "Navbar position" {
+    "Top": "top",
+    "Bottom": "bottom"
+}
+@var          checkbox fixNav    "Fixed navbar"  1
+@var          text     navHeight "Navbar height" 60px
+==/UserStyle== */
+
 @-moz-document url-prefix("masto.pt"), domain("masto.pt") {
 :root {
     --dropdown-border-color: #3d414d;
