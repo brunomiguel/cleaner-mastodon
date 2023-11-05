@@ -1,4 +1,4 @@
-# cleaner-mastodon
+# Cleaner Mastodon userstyle
 ### Userstyle to provide Mastodon with a cleaner look
 
 If you find Mastodon's advanced interface cluttered and overwhelming, this userstyle is for you. Don't forget to change the instance domain after installing it.
