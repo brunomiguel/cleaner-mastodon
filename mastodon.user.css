@@ -505,8 +505,33 @@ section.emoji-mart {
 }
 
 .zoomable-image img {
-    border: 1px solid var(--dropdown-border-color);
-    box-shadow: 0px 0px 70px -30px rgba(0, 0, 0, .5), 0px 0px 40px -20px rgba(0, 0, 0, .2);
+    border: 1px solid var(--dropdown-border-color) !important;
+    box-shadow: 0px 0px 70px -30px rgba(0, 0, 0, .5), 0px 0px 40px -20px rgba(0, 0, 0, .2) !important;
+}
+
+.emoji-mart-bar:first-child {
+    background-color: var(--dropdown-background-color) !important;
+}
+
+.emoji-mart-bar {
+  border: 1px solid var(--dropdown-border-color) !important;
+}
+
+.emoji-mart-category-label span {
+    background: var(--dropdown-border-color) !important;
+    color: #fff !important;
+}
+
+.emoji-mart-anchor {
+    color: #fff !important;
+}
+
+.emoji-picker-dropdown__menu {
+    background: transparent !important;
+}
+
+.emoji-picker-dropdown__menu .emoji-mart-scroll {
+    border-radius: 0px 0px 5px 5px !important;
 }
 
 }
