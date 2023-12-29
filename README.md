@@ -13,6 +13,7 @@ Don't forget to change the instance domain after installing it.
 
 ## Install
 
+**To install, click the button below or copy the content from mastodon.user.css. Don't forget to change the address of your instance after adding the userstyle.**
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://codeberg.org/brunomiguel/cleaner-mastodon/raw/branch/main/mastodon.user.css)
 
 ## Screenshot
