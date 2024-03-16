@@ -121,6 +121,10 @@ section.emoji-mart {
     height: 256px !important;
 }
 
+[aria-label="✊, fist"] {
+  left: 210px;
+}
+
 .compose-form .autosuggest-account-icon,
 .compose-form .autosuggest-emoji img {
     width: 24px !important;
