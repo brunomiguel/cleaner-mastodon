@@ -2,7 +2,7 @@
 @name         Cleaner Mastodon
 @description  Make Mastodon look cleaner
 @namespace    https://masto.pt/brunomiguel
-@version      0.0.12
+@version      0.0.13
 @author       brunomiguel (https://masto.pt/brunomiguel)
 @supportURL   https://github.com/brunomiguel/cleaner-mastodon/issues
 @license      AGPL-3.0-only
@@ -10,6 +10,7 @@
 
 @var checkbox opaqueMascot "Opaque Mascot" 0
 @var text columnWidth  "Column Width (in pixels)" 500px
+@var text emojiSize  "Emoji size for both width and height (in pixels)" 26px
 
 ==/UserStyle== */
 
@@ -138,8 +139,8 @@ section.emoji-mart {
 
 .reply-indicator__content .emojione,
 .status__content .emojione {
-    width: 26px !important;
-    height: 26px !important;
+    width: emojiSize !important;
+    height: emojiSize !important;
     padding: 4px !important;
 }
 
