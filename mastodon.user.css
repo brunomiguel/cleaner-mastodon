@@ -2,7 +2,7 @@
 @name         Cleaner Mastodon
 @description  Make Mastodon look cleaner
 @namespace    https://masto.pt/brunomiguel
-@version      0.0.17
+@version      0.0.18
 @author       brunomiguel (https://masto.pt/brunomiguel)
 @supportURL   https://github.com/brunomiguel/cleaner-mastodon/issues
 @license      AGPL-3.0-only
@@ -284,9 +284,9 @@ section.emoji-mart {
 .notification-grouped:hover,
 .notification-grouped:active,
 .notification-group:focus,
-.status__wrapper:hover,
-.status__wrapper:active,
-.status__wrapper:focus {
+.status__wrapper:hover:not(.notification-grouped, .notification-ungrouped),
+.status__wrapper:active:not(.notification-grouped, .notification-ungrouped),
+.status__wrapper:focus:not(.notification-grouped, .notification-ungrouped) {
     border: 1px solid rgba(199,234,138,0.4) !important;
     border-radius: 5px !important;
 
