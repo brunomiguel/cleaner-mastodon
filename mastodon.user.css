@@ -292,6 +292,20 @@ section.emoji-mart {
 
 }
 
+.notification-ungrouped .status__wrapper,
+.notification-grpuped .status__wrapper {
+    border: 0px !important;
+}
+
+.notification-ungrouped .status__wrapper:hover,
+.notification-ungrouped .status__wrapper:active,
+.notification-ungrouped .status__wrapper:focus,
+.notification-grouped .status__wrapper:hover,
+.notification-grouped .status__wrapper:active,
+.notification-grouped .status__wrapper:focus {
+    border: 0x !important;
+}
+
 .column {
     padding: 10px 10px !important;
     margin-right: 5px !important;
