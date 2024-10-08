@@ -275,7 +275,10 @@ section.emoji-mart {
 
 .notification-ungrouped:hover,
 .notification-ungrouped:active,
-.notificationnotification-ungrouped:focus {
+.notificationnotification-ungrouped:focus,
+.status__wrapper:hover,
+.status__wrapper:active,
+.status__wrapper:focus {
     border: 1px solid rgba(199,234,138,0.4) !important;
     border-radius: 5px !important;
 
