@@ -273,6 +273,15 @@ section.emoji-mart {
     border: 1px solid rgba(199, 234, 138, 0.4) !important;
 }
 
+.column {
+    padding: 10px 10px !important;
+    margin-right: 5px !important;
+}
+
+.column-header, .column > .scrollable {
+    border: none !important;
+}
+
 .column-header__collapsible-inner {
     background-color: #0f1014!important;
     margin-top: 10px !important;
@@ -285,10 +294,15 @@ section.emoji-mart {
 .column-header__collapsible,
 .account,
 .account__section-headline,
-.notification__filter-bar,
 .detailed-status__action-bar {
     border-bottom: none !important;
     border-top: none !important;
+}
+
+.notification__filter-bar {
+    border: 1px solid var(--background-border-color);
+    border-radius: 5px !important;
+    box-shadow: 
 }
 
 .account__section-headline,
