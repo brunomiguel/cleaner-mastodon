@@ -269,6 +269,8 @@ section.emoji-mart {
 
 .notification-ungrouped {
     margin: 10px 0px !important;
+    border: 1px solid transparent !important;
+    padding: 15px !important;
 }
 
 .notification-ungrouped:hover,
