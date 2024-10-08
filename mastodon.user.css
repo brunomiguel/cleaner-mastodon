@@ -2,7 +2,7 @@
 @name         Cleaner Mastodon
 @description  Make Mastodon look cleaner
 @namespace    https://masto.pt/brunomiguel
-@version      0.0.18.6
+@version      0.0.18.7
 @author       brunomiguel (https://masto.pt/brunomiguel)
 @supportURL   https://github.com/brunomiguel/cleaner-mastodon/issues
 @license      AGPL-3.0-only
@@ -23,6 +23,7 @@
     --modal-border-color: #3d414d;
     --modal-background-color-opaque: #1f232bfa;
     --yellow: #c7ea8a;
+    --surface-variant-background-color: #3a3a4f;
 }
 
 if opaqueMascot {
@@ -93,6 +94,10 @@ search__input {
 .status__info {
     padding-inline: 10px;
     padding-block: 10px;
+}
+
+.hashtag-bar {
+    color: #bfbfee !important;
 }
 
 b,
