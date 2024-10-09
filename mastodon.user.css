@@ -2,7 +2,7 @@
 @name         Cleaner Mastodon
 @description  Make Mastodon look cleaner
 @namespace    https://masto.pt/brunomiguel
-@version      0.0.18.28
+@version      0.0.18.29
 @author       brunomiguel (https://masto.pt/brunomiguel)
 @supportURL   https://github.com/brunomiguel/cleaner-mastodon/issues
 @license      AGPL-3.0-only
@@ -11,6 +11,7 @@
 @var checkbox opaqueMascot "Opaque Mascot" 0
 @var text columnWidth  "Column Width (in pixels)" 500px
 @var text emojiSize  "Emoji size for both width and height (in pixels)" 26px
+@var checkbox Toot "Enable Toot! in the publish button?" 0
 
 ==/UserStyle== */
 
@@ -171,17 +172,20 @@ section.emoji-mart {
     vertical-align: middle !important;
 }
 
-/* Toot button */
-.compose-form__submit > button.button {
-    font-size: 0 !important;
-}
+if Toot {
+    /* Toot button */
+    .compose-form__submit > button.button {
+        font-size: 0 !important;
+    }
 
-.compose-form__submit > button.button::after {
-    content: "Toot!";
-    text-transform: none;
-    position: relative;
-    bottom: 1px;
-    font-size: 14px !important;
+
+    .compose-form__submit > button.button::after {
+        content: "Toot!";
+        text-transform: none;
+        position: relative;
+        bottom: 1px;
+        font-size: 14px !important;
+    }
 }
 
 .column-header,
