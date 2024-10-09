@@ -373,7 +373,7 @@ section.emoji-mart {
 .notification__filter-bar button:not(.active):active,
 .notification__filter-bar button:not(.active):focus {
     color: var(--yellow) !important;
-    opacity: 0.5 !important;
+    opacity: 0.62 !important;
 }
 
 .account__section-headline,
