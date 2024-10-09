@@ -2,7 +2,7 @@
 @name         Cleaner Mastodon
 @description  Make Mastodon look cleaner
 @namespace    https://masto.pt/brunomiguel
-@version      0.0.18.25
+@version      0.0.18.26
 @author       brunomiguel (https://masto.pt/brunomiguel)
 @supportURL   https://github.com/brunomiguel/cleaner-mastodon/issues
 @license      AGPL-3.0-only
@@ -21,6 +21,7 @@
     --dropdown-shadow: 0 20px 25px -5px rgba(0, 0, 0, .25), 0 8px 10px -6px rgba(0, 0, 0, .25);
     --modal-background-color: #1f232b;
     --modal-border-color: #3d414d;
+    --modal-background-color: #22222e !important;
     --modal-background-color-opaque: #1f232bfa;
     --yellow: #c7ea8a;
     --surface-variant-background-color: #3a3a4f;
