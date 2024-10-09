@@ -360,6 +360,10 @@ if Toot {
     border-right: 1px solid var(--background-border-color) !important;
 }
 
+.column:first-of-type {
+    padding: 10px 15px 10px 10px !important;
+}
+
 .column-header, .column > .scrollable {
     border: none !important;
 }
