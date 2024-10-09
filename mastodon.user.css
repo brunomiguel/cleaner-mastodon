@@ -341,6 +341,10 @@ section.emoji-mart {
     padding: 30px 10px !important;
 }
 
+.notification-group:first-of-type {
+    margin-top: 10px !important;
+}
+
 .column {
     padding: 10px 10px !important;
     margin-right: 5px !important;
