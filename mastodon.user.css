@@ -2,7 +2,7 @@
 @name         Cleaner Mastodon
 @description  Make Mastodon look cleaner
 @namespace    https://masto.pt/brunomiguel
-@version      0.0.18.39
+@version      0.0.18.40
 @author       brunomiguel (https://masto.pt/brunomiguel)
 @supportURL   https://github.com/brunomiguel/cleaner-mastodon/issues
 @license      AGPL-3.0-only
@@ -357,6 +357,13 @@ if Toot {
 .notification-ungrouped--direct,
 status__wrapper-direct {
     background: rgba(81, 22, 41, 0.84) !important;
+}
+
+.notification-ungrouped--direct .notification-ungrouped__header,
+.notification-ungrouped--direct .status__prepend,
+.status__wrapper-direct .notification-ungrouped__header,
+.status__wrapper-direct .status__prepend {
+    color: var(--yellow) !important;
 }
 
 .notification-group:first-of-type {
