@@ -24,7 +24,7 @@
     --modal-background-color-opaque: #1f232bfa;
     --yellow: #c7ea8a;
     --surface-variant-background-color: #3a3a4f;
-    --surface-variant-active-background-color: #44445d;
+    --surface-variant-active-background-color: #51516e;
 }
 
 if opaqueMascot {
@@ -101,9 +101,9 @@ search__input {
     color: #bfbfee !important;
 }
 
-hashtag-bar a:hover,
-hashtag-bar a:active,
-hashtag-bar a:focus {
+.hashtag-bar a:hover,
+.hashtag-bar a:active,
+.hashtag-bar a:focus {
     color: var(--yellow) !important;
 }
 
