@@ -2,7 +2,7 @@
 @name         Cleaner Mastodon
 @description  Make Mastodon look cleaner
 @namespace    https://masto.pt/brunomiguel
-@version      0.0.18.33
+@version      0.0.18.34
 @author       brunomiguel (https://masto.pt/brunomiguel)
 @supportURL   https://github.com/brunomiguel/cleaner-mastodon/issues
 @license      AGPL-3.0-only
@@ -354,12 +354,8 @@ if Toot {
     border-radius: 0px 0px 0px 10px !important;
 }
 
-.column:first-of-type {
-    padding: 10px 15px 10px 10px !important;
-}
-
 .column {
-    padding: 10px 15px 10px 5px !important;
+    padding: 10px 15px 10px 10px !important;
     margin-right: 10px !important;
     border-right: 1px solid var(--background-border-color) !important;
 }
