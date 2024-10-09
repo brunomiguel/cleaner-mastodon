@@ -53,6 +53,11 @@ body {
 button.active .fa-retweet {
     color: #0010ff !important;
 }*/
+
+blockquote, q {
+    font-family: serif !important;
+}
+
 .column-header,
 .column-back-button {
     border-radius: 5px 5px 0px 0px;
