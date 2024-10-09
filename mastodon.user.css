@@ -2,7 +2,7 @@
 @name         Cleaner Mastodon
 @description  Make Mastodon look cleaner
 @namespace    https://masto.pt/brunomiguel
-@version      0.0.18.17
+@version      0.0.18.18
 @author       brunomiguel (https://masto.pt/brunomiguel)
 @supportURL   https://github.com/brunomiguel/cleaner-mastodon/issues
 @license      AGPL-3.0-only
@@ -346,11 +346,16 @@ section.emoji-mart {
     border: none !important;
 }
 
+.column-header__collapsible {
+    border-left: none !important;
+    border-right: none !important;
+}
+
 .column-header__collapsible-inner {
     background-color: #0f1014!important;
     margin-top: 10px !important;
     margin-bottom: 10px !important;
-    border-radius: 8px !important;
+    border-radius: 10px !important;
 }
 
 .status,
@@ -366,7 +371,8 @@ section.emoji-mart {
 .notification__filter-bar {
     border: 1px solid var(--background-border-color);
     border-radius: 5px !important;
-    box-shadow: 
+    box-shadow: var(--dropdown-shadow) !important;
+    margin-top: 10px !important;
 }
 
 .notification__filter-bar button:not(.active):hover,
