@@ -147,10 +147,6 @@ section.emoji-mart {
     height: 256px !important;
 }
 
-.emoji-picker-dropdown__modifiers .emoji-mart-emoji {
-  left: 210px;
-}
-
 .compose-form .autosuggest-account-icon,
 .compose-form .autosuggest-emoji img {
     width: 24px !important;
