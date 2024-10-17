@@ -136,6 +136,18 @@ bold {
     background: transparent !important;
 }
 
+@media (min-height: 1050px) {
+        div[data-popper-placement="top"] {
+            transform: translate(5px, -206px) !important;
+        }
+    }
+    
+    @media (min-height: 800px) {
+        div[data-popper-placement="top"] {
+            transform: translate(5px, -106px) !important;
+        }
+    }
+
 ul.emoji-mart-category-list li button span,
 ul.emoji-mart-category-list li button img {
     width: 36px !important;
@@ -683,6 +695,7 @@ status__wrapper-direct {
 
 .emoji-picker-dropdown__menu {
     background: transparent !important;
+    left: 20px !important;
 }
 
 .emoji-picker-dropdown__menu .emoji-mart-scroll {
