@@ -2,7 +2,7 @@
 @name         Cleaner Mastodon
 @description  Make Mastodon look cleaner
 @namespace    https://masto.pt/brunomiguel
-@version      0.0.18.43
+@version      0.0.18.44
 @author       brunomiguel (https://masto.pt/brunomiguel)
 @supportURL   https://github.com/brunomiguel/cleaner-mastodon/issues
 @license      AGPL-3.0-only
@@ -17,6 +17,7 @@
 
 @-moz-document url-prefix("masto.pt"), domain("masto.pt") {
 :root {
+    --background-border-color-opaque: #31314499;
     --dropdown-border-color: #3d414d;
     --dropdown-background-color: #23262f;
     --dropdown-shadow: 0 20px 25px -5px rgba(0, 0, 0, .25), 0 8px 10px -6px rgba(0, 0, 0, .25);
@@ -349,7 +350,7 @@ if Toot {
 }
 
 .notification-ungrouped {
-    border-bottom: 1px solid var(--background-border-color) !important;
+    border: 1px solid var(--background-border-color-opaque) !important;
     border-radius: 10px !important;
 }
 
